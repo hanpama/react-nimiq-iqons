@@ -1,0 +1,25 @@
+{
+  "name": "react-nimiq-iqons",
+  "version": "1.0.0",
+  "description": "React component for Nimiq Iqons",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel demo/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": ["Nimiq", "cryptocurrency", "react"],
+  "author": "Max Choi",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "parcel-bundler": "^1.8.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "typescript": "^2.8.3"
+  }
+}

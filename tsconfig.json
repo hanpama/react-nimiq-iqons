@@ -1,0 +1,27 @@
+{
+  "version": "2.6.1",
+  "compilerOptions": {
+      "lib": ["es5", "es6", "esnext.asynciterable"],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "stripInternal": true,
+      "declaration": true,
+      "pretty": true,
+      "allowSyntheticDefaultImports": true,
+      "strictNullChecks": true,
+      "jsx": "react",
+      "noUnusedLocals": true,
+      "outDir": ".",
+  },
+  "files": [
+    "src/index.tsx"
+  ],
+  "exclude": [
+    "node_modules/"
+  ]
+}
