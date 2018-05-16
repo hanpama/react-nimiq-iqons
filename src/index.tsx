@@ -24,8 +24,6 @@ export function Iqon({ address, ...props }: IqonProps) {
   while (accentColor === color || accentColor === backgroundColor)
     if (++accentColor > 9) accentColor = 0;
 
-    console.log(topNr, faceNr, bottomNr, sideNr);
-
   const Top = catalogue.Top[topNr % catalogue.Top.length];
   const Face = catalogue.Face[faceNr % catalogue.Face.length];
   const Bottom = catalogue.Bottom[bottomNr % catalogue.Bottom.length];
