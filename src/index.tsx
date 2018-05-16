@@ -3,11 +3,11 @@ import * as React from 'react';
 import { catalogue } from './catalogue';
 
 
-export interface IqonProps extends React.SVGProps<{}> {
+export interface IqonProps extends React.SVGProps<any> {
   address: string;
 };
 
-export function Iqon({ address, className, ...props }: IqonProps) {
+export function Iqon({ address, ...props }: IqonProps) {
   const hash = addressToHash(address);
 
   let color = parseInt(hash[0]);
@@ -36,8 +36,6 @@ export function Iqon({ address, className, ...props }: IqonProps) {
   return (
     <svg
       viewBox='0 0 160 160'
-      width='160'
-      height='160'
       xmlns='http://www.w3.org/2000/svg'
       {...props}
     >
