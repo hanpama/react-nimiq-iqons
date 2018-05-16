@@ -9,7 +9,15 @@
     "build": "tsc"
   },
   "keywords": ["Nimiq", "cryptocurrency", "react"],
-  "author": "Max Choi",
+  "author": "Max Choi <hanpama@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanpama/react-nimiq-iqons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanpama/react-nimiq-iqons/issues"
+  },
+  "homepage": "https://github.com/hanpama/react-nimiq-iqons",
   "license": "MIT",
   "peerDependencies": {
     "@types/react": "^16.0.0"
